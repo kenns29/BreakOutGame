@@ -1,0 +1,17 @@
+1) Press space bar to shoot the ball. The paddle can be rotated before the ball is shot, thus making the ball move with different angle. To rotate the paddle, press up and down arrow key,
+to move the paddle left and right, press left and right arrow key
+
+2) once the ball is shot, the paddle will be reset to horizontal position and can't be rotated. collision of the ball with any objects will alter the movement angle of the ball, also destroying the object. each collision is counted as 1 score point. the timer indicates the amount of time that has been elapsed since the ball is shot.
+
+3) two object that are drawn with outline mode on the right side are the special shape polygons, one sixgon and one star shape.
+
+4) two viewports are seperated with a white line
+
+5) resizing the window won't alter the propertion of the objects' position in the entire main viewport space, also it won't change the size of the objects, thus resizing the window size to too small will cause the objects to overlap with each other. no collision is detected between each polygon objects.
+
+6) right click mouse to access the pop up menu, functionally exactly same as stated in the project page. the reset option will reset score and timer to 0, also place all destroyed objects back to screen, also re-initialize the ball position back to paddle.
+
+------
+minor bugs:
+
+1) when the paddle try to catch the ball by moving toward it, it may cause some internal collision of the ball with the paddle. no such bug when the ball simply hits paddle by itself.
